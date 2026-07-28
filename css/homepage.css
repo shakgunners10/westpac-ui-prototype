@@ -1,0 +1,49 @@
+.hero {
+  background-color: #8bb8f5;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.hero p {
+  font-size: 15px;
+}
+
+.btn-cta {
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 8px 24px;
+  margin-top: 10px;
+}
+
+.product-card {
+  background-color: #e0e0e0;
+  padding: 25px;
+  height: 100%;
+}
+
+.thumb {
+  background-color: #9c8f8f;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.carousel-block {
+  background-color: #fbd3ae;
+  padding: 60px 0;
+}
+
+.contact-block {
+  background-color: #ff9fd0;
+  padding: 50px 0;
+}
+
+.btn-submit {
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+  padding: 6px 20px;
+}
