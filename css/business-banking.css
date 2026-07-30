@@ -1,0 +1,53 @@
+.product-intro {
+  background-color: #fbd3ae;
+  padding: 60px 0;
+}
+
+.btn-open-account {
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 8px 24px;
+  margin-top: 10px;
+}
+
+.product-card {
+  background-color: #e0e0e0;
+  padding: 25px;
+  height: 100%;
+}
+
+.thumb {
+  background-color: #9c8f8f;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.rate-table-section {
+  background-color: #e0c3f2;
+  padding: 40px 0;
+}
+
+.rate-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rate-table th,
+.rate-table td {
+  padding: 15px 10px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.rate-table thead th {
+  border-top: none;
+  font-weight: normal;
+}
+
+.cta-band {
+  background-color: #b8f7c4;
+  padding: 40px 0;
+}
