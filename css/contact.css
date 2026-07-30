@@ -9,17 +9,6 @@
   padding: 50px;
 }
 
-.field-box {
-  display: block;
-  width: 100%;
-  background-color: #e0e0e0;
-  border: none;
-  text-align: center;
-  padding: 12px;
-  font-size: 14px;
-  color: #333;
-}
-
 .btn-submit {
   font-weight: bold;
   margin-top: 10px;

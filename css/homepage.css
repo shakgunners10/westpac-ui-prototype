@@ -12,26 +12,6 @@
   font-size: 15px;
 }
 
-.btn-cta {
-  background-color: #fff;
-  border: 1px solid #333;
-  padding: 8px 24px;
-  margin-top: 10px;
-}
-
-.product-card {
-  background-color: #e0e0e0;
-  padding: 25px;
-  height: 100%;
-}
-
-.thumb {
-  background-color: #9c8f8f;
-  width: 45px;
-  height: 45px;
-  margin-bottom: 15px;
-}
-
 .carousel-block {
   background-color: #fbd3ae;
   padding: 60px 0;

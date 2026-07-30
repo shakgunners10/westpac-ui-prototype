@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+/* ===== HEADER / NAV (shared across every page) ===== */
 .site-header {
   background-color: #d9d9d9;
   padding: 20px 40px;
@@ -35,8 +36,44 @@ body {
   background-color: #f0f0f0;
 }
 
+/* ===== FOOTER (shared across every page) ===== */
 .site-footer {
   background-color: #d9d9d9;
   padding: 15px;
   font-size: 14px;
+}
+
+/* ===== SHARED FORM FIELD STYLE (used on login + contact) ===== */
+.field-box {
+  display: block;
+  width: 100%;
+  background-color: #e0e0e0;
+  border: none;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* ===== SHARED PRODUCT CARD (used on homepage, personal banking, business banking) ===== */
+.product-card {
+  background-color: #e0e0e0;
+  padding: 25px;
+  height: 100%;
+}
+
+.thumb {
+  background-color: #9c8f8f;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+/* ===== SHARED CTA BUTTON STYLE (hero button + open account button) ===== */
+.btn-outline-cta {
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 8px 24px;
+  margin-top: 10px;
 }
