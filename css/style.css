@@ -9,6 +9,66 @@ body {
   background-color: #d9d9d9;
   padding: 20px 40px;
 }
+/* ===== RESPONSIVE HEADER ===== */
+.header-inner {
+  position: relative;
+}
+
+.hamburger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.hamburger-btn span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #222;
+}
+
+/* Tablet and mobile: below 992px */
+@media (max-width: 991.98px) {
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .header-inner {
+    justify-content: center;
+  }
+
+  .logo-box {
+    margin: 0 auto;
+  }
+
+  .nav-buttons {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    padding: 10px 20px 20px;
+    z-index: 10;
+  }
+
+  .nav-buttons.show {
+    display: flex;
+  }
+
+  .nav-btn {
+    margin: 6px 0;
+    text-align: center;
+  }
+}
 
 .logo-box {
   background-color: #e8291c;
@@ -116,4 +176,23 @@ body {
   font-size: 14px;
   margin-top: 15px;
   line-height: 1.6;
+}
+
+@media (max-width: 767.98px) {
+  .hero,
+  .carousel-block,
+  .contact-block,
+  .product-intro,
+  .rate-table-section,
+  .cta-band,
+  .calculator-section {
+    padding: 35px 0;
+  }
+
+  .contact-card,
+  .login-card,
+  .calculator-card {
+    width: 90%;
+    padding: 25px;
+  }
 }

@@ -11,14 +11,19 @@
 <body>
 
   <!-- HEADER -->
-  <header class="site-header d-flex justify-content-between align-items-center flex-wrap">
+ <header class="site-header">
+  <div class="header-inner d-flex justify-content-between align-items-center">
+    <button class="hamburger-btn" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
     <div class="logo-box">LOGO</div>
-    <nav class="nav-buttons d-flex flex-wrap">
-      <a href="login.html" class="nav-btn">Log In</a>
+    <nav class="nav-buttons" id="navMenu">
       <a href="business-banking.html" class="nav-btn">Business</a>
+      <a href="login.html" class="nav-btn">Login</a>
       <a href="contact.html" class="nav-btn">Contact Us</a>
     </nav>
-  </header>
+  </div>
+</header>
 
   <!-- PRODUCT INTRO BANNER -->
   <section class="product-intro text-center">
