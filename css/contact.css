@@ -1,0 +1,40 @@
+.contact-section {
+  padding: 60px 0;
+  min-height: 500px;
+}
+
+.contact-card {
+  background-color: #ff9fd0;
+  width: 500px;
+  padding: 50px;
+}
+
+.field-box {
+  display: block;
+  width: 100%;
+  background-color: #e0e0e0;
+  border: none;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.btn-submit {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error-text {
+  display: block;
+  color: #8b0000;
+  font-size: 12px;
+  margin-top: 4px;
+  min-height: 16px;
+}
+
+.success-text {
+  color: #14532d;
+  font-weight: bold;
+  font-size: 14px;
+}
