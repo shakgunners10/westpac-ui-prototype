@@ -71,16 +71,16 @@ body {
 }
 
 .logo-box {
-  background-color: #e8291c;
-  color: #000;
-  width: 120px;
-  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-  font-size: 12px;
   text-decoration: none;
+}
+
+.logo-img {
+  height: 45px;
+  width: auto;
+  display: block;
 }
 
 .nav-btn {
