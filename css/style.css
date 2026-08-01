@@ -80,6 +80,7 @@ body {
   justify-content: center;
   font-weight: bold;
   font-size: 12px;
+  text-decoration: none;
 }
 
 .nav-btn {
