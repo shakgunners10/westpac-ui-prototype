@@ -10,6 +10,11 @@
 </head>
 <body>
 
+  <!-- ============================================
+     HEADER: Logo + responsive nav (hamburger on
+     tablet/mobile via nav.js)
+     ============================================ -->
+
   <!-- HEADER -->
  <header class="site-header">
   <div class="header-inner d-flex justify-content-between align-items-center">
@@ -27,6 +32,12 @@
   </div>
 </header>
 
+<!-- ============================================
+     PRODUCT CARDS: Three key account types,
+     stacks to single column on mobile via
+     Bootstrap's col-md-4
+     ============================================ -->
+
   <!-- PRODUCT INTRO BANNER -->
   <section class="product-intro text-center">
     <div class="container">
@@ -35,6 +46,12 @@
       <a href="personal-banking.html" class="btn btn-outline-cta">CTA Button</a>
     </div>
   </section>
+
+  <!-- ============================================
+     FEATURE CARDS: Three key account types,
+     stacks to single column on mobile via
+     Bootstrap's col-md-4
+     ============================================ -->
 
   <!-- FEATURE CARDS -->
   <section class="products py-5">
@@ -65,6 +82,11 @@
     </div>
   </section>
 
+  <!-- ============================================
+     INTEREST RATE TABLE: Interest table,
+     shrinks to fit screen size
+     ============================================ -->
+
   <!-- INTEREST RATE TABLE -->
   <section class="rate-table-section text-center">
     <div class="container">
@@ -92,6 +114,14 @@
       </table>
     </div>
   </section>
+
+<!-- ============================================
+     SAVINGS CALCULATOR: Interactive JS-powered
+     calculator, positioned between the interest
+     rate table and CTA to let users project
+     their own savings growth before opening an
+     account. Logic lives in js/calculator.js
+     ============================================ -->
 
 <!-- SAVINGS CALCULATOR -->
 <section class="calculator-section text-center">
@@ -127,13 +157,21 @@
   </div>
 </section>
 
-  <!-- CTA BAND -->
-  <section class="cta-band text-center">
-    <div class="container">
-      <p class="fw-bold mb-2">Ready to open a saving account</p>
-      <p class="mb-0">Get Started now</p>
-    </div>
-  </section>
+<!-- ============================================
+     CTA BAND: Final call-to-action encouraging
+     account opening after the user has reviewed
+     rates and calculated projected savings
+     ============================================ -->
+<section class="cta-band text-center">
+  <div class="container">
+    <p class="fw-bold mb-2">Ready to open a saving account</p>
+    <a href="login.html" class="btn btn-cta-band">Get Started now</a>
+  </div>
+</section>
+
+  <!-- ============================================
+     FOOTER
+     ============================================ -->
 
   <!-- FOOTER -->
   <footer class="site-footer text-center">
