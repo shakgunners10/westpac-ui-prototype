@@ -1,3 +1,16 @@
+/* =========================================================
+   style.css
+   Shared styles used across all pages: header, nav, footer,
+   shared form fields, product cards, and the logo.
+   Page-specific styles live in their own file
+   (e.g. homepage.css, login.css).
+   ========================================================= */
+
+/* ===== HEADER / NAV (shared across every page) ===== */
+
+/* ===== FOOTER (shared across every page) ===== */
+
+
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #222;

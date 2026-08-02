@@ -2,6 +2,13 @@
 // Calculates a projected balance based on starting balance, monthly deposits,
 // annual interest rate, and number of years — using monthly compounding.
 
+/* =========================================================
+   SAVINGS CALCULATOR
+   Styles for the interactive calculator card on the
+   personal banking page. Functionality (input validation,
+   monthly-compounding calculation) lives in js/calculator.js
+   ========================================================= */
+   
 document.addEventListener('DOMContentLoaded', function () {
   const calculateBtn = document.getElementById('calculateBtn');
 

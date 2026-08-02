@@ -1,3 +1,11 @@
+/* =========================================================
+   login.css
+   Styles unique to the login page: the centered login card,
+   remember-me checkbox, and helper links. Shared field
+   styling (.field-box) lives in style.css.
+   ========================================================= */
+
+
 .login-section {
   padding: 60px 0;
   min-height: 500px;
