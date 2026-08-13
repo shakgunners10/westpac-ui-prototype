@@ -236,3 +236,55 @@ body {
     padding: 25px;
   }
 }
+
+/* ===== PAGE TITLE BANNER (Personal/Business Banking differentiation) ===== */
+.page-title {
+  padding: 25px 0;
+  border-bottom: 4px solid #1a3d8f;
+}
+
+.page-title h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.page-title.personal {
+  border-bottom-color: #1a8f6a; /* green accent for personal */
+}
+
+.page-title.business {
+  border-bottom-color: #8f4a1a; /* amber/brown accent for business */
+}
+
+/* ===== BUTTON AFFORDANCE (hover states so buttons read as clickable) ===== */
+.nav-btn,
+.btn-outline-cta,
+.btn-cta-band,
+.btn-submit,
+.btn-login,
+.btn-calculate {
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-outline-cta:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.btn-cta-band:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.btn-submit:hover,
+.btn-login:hover {
+  background-color: #d4d4d4;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* ===== DISCLAIMER TEXT ===== */
+.disclaimer-text {
+  font-size: 11px;
+  color: #555;
+  margin-top: 6px;
+}
