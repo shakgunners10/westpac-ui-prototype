@@ -288,3 +288,16 @@ body {
   color: #555;
   margin-top: 6px;
 }
+
+.rate-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.rate-table th,
+.rate-table td {
+  width: 33.33%;
+}
